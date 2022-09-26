@@ -1,10 +1,8 @@
 pipeline {
     agent any
     envrionment{
-        $class: 'AmazonWebServicesCredentialsBinding',
-        credentialsId: "aws-rts",
-        accessKeyVariable: 'AWS_ACCESS_KEY_ID',
-        secretKeyVariable: 'AWS_SECRET_ACCESS_KEY'
+        AWS_ACCESS_KEY_ID: 'AWS_ACCESS_KEY_ID_1',
+        AWS_SECRET_ACCESS_KEY: 'AWS_SECRET_ACCESS_KEY_1'
     }
     stages {
         stage('Build') {
