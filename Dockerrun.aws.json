@@ -1,0 +1,12 @@
+{
+    "AWSEBDockerrunVersion": "1",
+    "Image": {
+      "Name": "dockerdoctor1/reactjenkins",
+      "Update": "true"
+    },
+    "Ports": [
+      {
+        "ContainerPort": "80"
+      }
+    ]
+  }
