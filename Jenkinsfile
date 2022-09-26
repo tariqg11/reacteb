@@ -1,6 +1,6 @@
 pipeline {
     agent any
-    withCredentials([[
+    envrionment[[
         $class: 'AmazonWebServicesCredentialsBinding',
         credentialsId: "aws-rts",
         accessKeyVariable: 'AWS_ACCESS_KEY_ID',
