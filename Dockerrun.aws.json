@@ -1,7 +1,7 @@
 {
     "AWSEBDockerrunVersion": "1",
     "Image": {
-      "Name": "dockerdoctor1/reactjenkins",
+      "Name": "dockerdoctor1/reactjenkins:26",
       "Update": "true"
     },
     "Ports": [
